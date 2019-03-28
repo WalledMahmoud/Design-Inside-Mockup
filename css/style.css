@@ -1,0 +1,41 @@
+
+body{
+    background: url(../back.png);
+}
+
+.holder {   
+    width: 964px;
+    height: 964px;
+    background-image: url(../preview.png);
+    margin:50px auto;
+    text-align: center;
+    position: relative;
+}
+
+.holder .preview { 
+    position: absolute;
+    top: 34px;
+    left: 36px;
+    width:891px;
+    height: 517px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.holder .preview img{
+    margin-top: 0;
+    width: 100%;
+}
+
+.holder .preview:hover img{
+    margin-top: -2260px;
+    -webkit-transition:all 10s ease-in-out;
+    -moz-transition:all 10s ease-in-out;
+    -o-transition:all 10s ease-in-out;
+    transition:all 10s ease-in-out;
+}
+
+
+
+
+
